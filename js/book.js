@@ -54,8 +54,8 @@ const showData = (books) => {
             <div class="card my-3" style="width: 18rem; height:420px">
                 <img class="card-img-top img-fluid"  style="width:300px; height:200px" src=" https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg" >
             <div class="card-body overflow-hidden">
-                <h5 class="card-title text-primary">Book Title: ${book.title}</h5>
-                <p class="card-subtitle text-danger mb-2">Book Author Name : ${book.author_name[0]}</p>
+                <h5 class="card-title">Book Title: ${book.title}</h5>
+                <p class="card-subtitle mb-2">Book Author Name : ${book.author_name[0]}</p>
                 <p class="card-text">Book Publisher : ${book.publisher[0]}</p>
                 <p class="card-text"> First Publish Year : ${book.first_publish_year} </p>
             </div>
